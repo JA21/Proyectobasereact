@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.General {
+    height: 150%;
+}
+
+.imagebackground {
+    height: 700px;
+
+    background: linear-gradient(to bottom, rgba(226, 216, 209, 0.507) 0%, rgba(212, 152, 114, 0.87) 100%),
+        url("./Components/images/imag3.jpg");
+
+    background-size: cover;
+}
+
+.Navbar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.HeaderNavList {
+    padding: 20px;
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Header__titlebos {
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+.BodyUp {
+    padding: 80px;
+    display: grid;
+    grid-template-rows: repeat(3, 2fr);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    grid-gap: 40px;
+}
+
+.BodyTitle {
+    height: 100px;
+    color: white;
+
+    margin: 0 0 8px;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.BodyText {
+    width: 800px;
+    height: 100px;
+
+    font-size: 28px;
+    color: white;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.BodyButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonFind {
+    color: #ffffff;
+    background: orange;
+    height: 60px;
+    width: 150px;
+    border-radius: 2em;
+}
+
+.Bodycont {
+    padding: 40px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    //justify-content: center;
+    background: rgba(236, 113, 41, 0.712);
+}
+
+.Bodycontitle {
+    padding: 40px;
+    //margin: 0 0 8px;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 35px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.BodycontText {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.buttoncont {
+    background: rgb(255, 251, 245);
+    height: 60px;
+    width: 150px;
+    border-radius: 2em;
+}
+
+.Bodycontbutton {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.styleohome {
+    text-decoration: none;
+    color: rgb(228, 220, 220);
+}
+
+.BodycontItem {
+    padding: 20px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+.BodycontItemText {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.BodycontIcons {
+    height: 100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.ColorSetIcom {
+    color: rgb(233, 7, 7);
+    font-size: 60px;
+}
+
+.BodyCarousel {
+    margin: 0 auto;
+    padding: 0 auto;
+    display: inline;
+    justify-content: center;
+}
+
+.BodyCarouselimage {
+    background: rgba(34, 35, 112, 0.705);
+    text-align: center;
+    width: auto;
+    height: 600px;
+    max-width: 100%;
+    overflow: hidden;
+    
+}
+
+img {
+    border: 1px solid black;
+    text-align: center;
+
+    max-width: 60%;
+
+    height: 90%;
+}
+.ant-carousel .slick-slide img{
+    display: inline;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  

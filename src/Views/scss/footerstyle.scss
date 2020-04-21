@@ -1,0 +1,49 @@
+
+
+.Footer {
+    padding: 0;
+    margin: 0 auto;
+    
+  
+
+    &__texto{
+        padding: 20px;
+        
+         text-align: center;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+       
+        font: 20px;
+    }
+
+    &__Iconos {
+        padding: 20px;
+       
+        font-size: 40px;
+        
+        text-align: center;
+        display: grid;
+        grid-template-columns:35% 35% 35%;
+         align-items: center;
+        justify-content: center;
+        align-content: center;
+
+        &--Youtobe  {
+            color:red;
+        }
+        &--Whatsapp {
+            color: green;
+        }
+        &--Messenger {
+            color: blue;
+        }
+    }
+
+}
+
+ p{
+    font-size: 20px;
+    color: black;
+}
