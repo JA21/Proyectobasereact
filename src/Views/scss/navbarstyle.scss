@@ -1,0 +1,21 @@
+.Header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    &__titlebos {
+        padding: 20px;
+        display: grid;
+        align-items: center;
+        font-size: 30px;
+        color: white;
+    }
+}
+.HeaderNavList {
+    padding: 20px;
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+}

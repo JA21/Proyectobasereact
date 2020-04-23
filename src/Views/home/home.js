@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 
@@ -42,7 +43,7 @@ export default class home extends Component {
           <div className="Header">
 
             <div className="Header__titlebos">
-              <p>Bostrap</p>
+              <p>Joyas</p>
             </div>
 
 
@@ -52,7 +53,7 @@ export default class home extends Component {
                   <Link to="/" className="styleohome">Home</Link>
                 </li>
                 <li>
-                  <Link to="/" className="styleohome">Services</Link>
+                  <Link to="/" className="styleohome">Login</Link>
                 </li>
                 <li>
                   <Link to="/" className="styleohome">Portafolio</Link>
