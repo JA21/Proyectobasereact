@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.Principal {
+    background: linear-gradient(to bottom, rgba(226, 216, 209, 0.507) 0%, rgba(212, 152, 114, 0.87) 100%),
+            url("../../Components/images/imag1.jpg");
+    min-height:85ch ;
+  
+    display: flex;
+    text-align: center;
+    justify-content: center;
+        
+        &__FormRegistry{
+           
+           margin: 0;
+           padding: 0;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+           &--titles{
+               padding: 20px;
+               font-size: 30px;
+               font-weight: bolder;
+               grid-template-rows: 50% 50%;
+               gap: 20px;
+           }
+           &__inputs  {
+               padding: 30px;
+               display: grid;
+               justify-content: center;
+               align-items: center;
+               align-content: center;
+               grid-template-rows:30% 30% 30% 30%;
+              
+              
+               border: 1px solid black;
+               
+           }
+
+           &--buttons {
+               padding: 20px;
+           }
+
+           &--footer {
+               border:1px solid black;
+           }
+
+        }
+    }
+    

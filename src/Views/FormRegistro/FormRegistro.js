@@ -1,70 +1,62 @@
 
 import React from 'react';
 
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+
+//importando estilos
+import '../scss/FormRegistry.scss';
+
+//importando estilos
+
+import Footer from '../Footer/footers';
+
 export default class SignUpForm extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            email: "",
-            password: ""
-        };
-    }
-
-    handleEmailChange = evt => {
-        this.setState({ email: evt.target.value });
-    };
-
-    handlePasswordChange = evt => {
-        this.setState({ password: evt.target.value });
-    };
-
-    handleSubmit = evt => {
-        if (!this.canBeSubmitted()) {
-            evt.preventDefault();
-            return;
-        }
-        const { email, password } = this.state;
-        alert(`Signed up with email: ${email} password: ${password}`);
-    };
-
-    canBeSubmitted() {
-        const { email, password } = this.state;
-        return email.length > 0 && password.length > 0;
-    }
 
     render() {
-        const isEnabled = this.canBeSubmitted();
+
         return (
-            <div>
-                <form onSubmit={this.handleSubmit}>
-                    <div>
-                        <div>
+            <div className="Principal">
+
+                <div className="Principal__FormRegistry">
+                    <div className="Principal__FormRegistry--titles">
+                        <h1>Form registry</h1>
+                        <h3>Record your information</h3>
+                    </div>
+                    <form >
+                        <div className="Principal__FormRegistry__inputs">
+
+
                             <input
                                 type="text"
-                                placeholder="Enter email"
-                                value={this.state.email}
-                                onChange={this.handleEmailChange}
-                            />
+                                placeholder="Name" />
                             <input
-                                type="password"
-                                placeholder="Enter password"
-                                value={this.state.password}
-                                onChange={this.handlePasswordChange}
-                            />
+                                type="text"
+                                placeholder="Last Name" />
+
+                            <input type="email"
+                                placeholder="Email" />
+
+                            <input type="password"
+                                placeholder="Password" />
+
+
                         </div>
-                        <div className="General__Login__LoginForm__Checkbox">
+                        <div className="Principal__FormRegistry--buttons">
                             <input type="checkbox" />
                             <label>Remenber me</label>
-                            
+                            <button >Registre</button>
 
 
                         </div>
-                        <div>
-                            <button disabled={!isEnabled}>Sign up</button>
-                        </div>
+                    </form>
+                    <div className="Principal__FormRegistry--footer">
+                        <Router>
+                            <Route path="/" exact component={Footer} />
+                        </Router>
                     </div>
+                </div>
 
-                </form>
+
 
             </div>
         );
