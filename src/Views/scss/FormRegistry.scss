@@ -36,12 +36,16 @@
                grid-template-rows:30% 30% 30% 30%;
               
               
-               border: 1px solid black;
-               
+              
+             
            }
 
            &--buttons {
-               padding: 20px;
+            padding: 20px;
+            border: 1px solid black;
+              
+               
+               
            }
 
            &--footer {

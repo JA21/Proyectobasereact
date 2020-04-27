@@ -20,6 +20,7 @@
         align-items: center;
         min-height:100% ;
         &__LoginForm {
+           
             display: grid;
             align-items: center;
             justify-content: center;
@@ -48,4 +49,9 @@
 }
 .ButtonLogin {
     width: 80px;
+}
+.CARD {
+
+    background: rgba(199, 154, 8, 0)
+
 }

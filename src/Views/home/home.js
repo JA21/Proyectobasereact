@@ -14,6 +14,8 @@ import image from '../../Components/images/imag5.jpg';
 import footer from '../Footer/footers';
 
 
+
+
 //importando iconos antd
 
 import {
@@ -47,13 +49,13 @@ export default class home extends Component {
             </div>
 
 
-            <Router>
+          
               <ul className="HeaderNavList" >
                 <li>
-                  <Link to="/" className="styleohome">Home</Link>
+                  <Link to={`/Home`} className="styleohome">Home</Link>
                 </li>
                 <li>
-                  <Link to="/" className="styleohome">Login</Link>
+                  <Link to={`/Login`} className="styleohome">Login</Link>
                 </li>
                 <li>
                   <Link to="/" className="styleohome">Portafolio</Link>
@@ -62,8 +64,7 @@ export default class home extends Component {
                   <Link to="/" className="styleohome">Contact</Link>
                 </li>
               </ul>
-            </Router>
-
+            
 
           </div>
           <div className="BodyUp">
