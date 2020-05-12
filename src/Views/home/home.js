@@ -45,7 +45,7 @@ export default class home extends Component {
           <div className="Header">
 
             <div className="Header__titlebos">
-              <p>Joyas</p>
+              <p className="p2"> Joyas</p>
             </div>
 
 

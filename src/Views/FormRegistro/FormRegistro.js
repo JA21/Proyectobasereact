@@ -18,36 +18,42 @@ export default class SignUpForm extends React.Component {
             <div className="Principal">
 
                 <div className="Principal__FormRegistry">
-                    <div className="Principal__FormRegistry--titles">
-                        <h1>Form registry</h1>
-                        <h3>Record your information</h3>
-                    </div>
+                    <div className="Principal__FormRegistry__titles">
+                        <h1 className="Principal__FormRegistry__titles--titleh1">Form registry</h1>
+                        <h3 className="Principal__FormRegistry__titles--titleh3" >Enter your information</h3>
+                        </div>
                     <form >
                         <div className="Principal__FormRegistry__inputs">
 
 
                             <input
                                 type="text"
-                                placeholder="Name" />
+                                placeholder="Name" 
+                                className="Principal__FormRegistry__inputs--StyleInputs"/>
+                                
                             <input
                                 type="text"
-                                placeholder="Last Name" />
+                                placeholder="Last Name"
+                                className="Principal__FormRegistry__inputs--StyleInputs" />
 
                             <input type="email"
-                                placeholder="Email" />
+                                placeholder="Email"
+                                className="Principal__FormRegistry__inputs--StyleInputs" />
 
                             <input type="password"
-                                placeholder="Password" />
+                                placeholder="Password" 
+                                className="Principal__FormRegistry__inputs--StyleInputs"/>
 
 
                         </div>
-                        <div className="Principal__FormRegistry--buttons">
-                            <input type="checkbox" />
-                            <label>Remenber me</label>
-                            <button >Registry</button>
+                        <div className="Principal__FormRegistry__buttons">
+                          
+                            <button className="Principal__FormRegistry__buttons--StyleButtons">Check in</button>
+                            <button className="Principal__FormRegistry__buttons--StyleButtons">Login</button>
 
 
                         </div>
+                        
                     </form>
                     {/* <div className="Principal__FormRegistry--footer">
                         <Router>

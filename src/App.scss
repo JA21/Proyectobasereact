@@ -28,7 +28,7 @@
 
 .HeaderNavList {
     padding: 20px;
-
+    ;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -36,12 +36,17 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
-.Header__titlebos {
-    padding: 20px;
-    display: grid;
-    align-items: center;
-    font-size: 30px;
+// .Header__titlebos {
+//     font-size: 30px;
+    
+//     margin-left: 80px;
+  
+// }
+
+.p2 {
+    margin-left: 80px;
     color: white;
+    font-size: 20px;
 }
 
 .BodyUp {
@@ -57,7 +62,7 @@
 .BodyTitle {
     height: 100px;
     color: white;
-
+    
     margin: 0 0 8px;
     font-family: Impact, Charcoal, sans-serif;
     font-size: 40px;
@@ -90,7 +95,14 @@
     height: 60px;
     width: 150px;
     border-radius: 2em;
+    text-shadow: 1px 1px #fff;
 }
+
+.ButtonFind:hover {
+   
+    background: orange;
+    color: #ffffff;
+  }
 
 .Bodycont {
     padding: 40px;
@@ -140,7 +152,7 @@
 
 .styleohome {
     text-decoration: none;
-    color: rgb(228, 220, 220);
+    color: white;
 }
 
 .BodycontItem {
